@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+mkdir -p /home/training/course_dir/data_dir/Barbara_Borges/mice_samples/
 cd /home/training/course_dir/data_dir/Barbara_Borges/mice_samples/
 curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR247/018/SRR24781618/SRR24781618_1.fastq.gz -o brain_6m_rep_1.fastq.gz
 curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR247/017/SRR24781617/SRR24781617_1.fastq.gz -o brain_6m_rep_2.fastq.gz
